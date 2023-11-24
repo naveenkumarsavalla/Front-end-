@@ -1,0 +1,43 @@
+.item{
+    border: 2px solid red;
+    width: 200px;
+    height: 20vh;
+    padding: 20px;
+    margin: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10PX;
+}
+[type=button]{
+    background-color: rgb(55, 155, 172);
+    color: white;
+    border: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+    padding: 5px;
+    hover
+
+}
+[type=button]:hover{
+    background-color: black;
+}
+.popup{
+    position: fixed;
+    left: 30%;
+    top: 25%;
+    background-color: white;
+    height: 50vh;
+    width: 40%;
+}
+.bg-popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220vh;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}

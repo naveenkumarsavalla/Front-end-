@@ -1,0 +1,15 @@
+.pagination{
+    list-style-type:none;
+    background-color:rgb(251, 251, 255);
+    padding:10px;
+}
+.pagination-item{
+    display:inline;
+    border:1px solid red;
+    padding:10px;
+    margin:5px;
+}
+.pagination-item:hover{
+    background-color:blue;
+    cursor: pointer;
+}
