@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="../../assets//js/product.create.js"></script>
+    
+    <title>products</title>
+</head>
+<body> 
+    <div>
+            
+        <div class="card">
+            
+            <div class="card-body">
+             
+                <form>
+                    <h2>Add product</h2>
+                    
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label">title:</label>
+                        <div class="col-10">
+                            <input type="text" class="form-control mt-2 mb-2" id="title" >
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label">Description:</label>
+                        <div class="col-10">
+                            <input type="text" class="form-control mt-2 mb-2" id="desc" >
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label">Price:</label>
+                        <div class="col-10">
+                            <input type="number" class="form-control mt-2 mb-2"  id="price">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label">DiscountPercentage:</label>
+                        <div class="col-10">
+                            <input type="number" class="form-control mt-2 mb-2"  id="discountpercentage">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label">Rating:</label>
+                        <div class="col-10">
+                            <input type="number" class="form-control mt-2 mb-2" id="rating" >
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label">Stock:</label>
+                        <div class="col-10">
+                            <input type="text" class="form-control mt-2 mb-2" id="stock" >
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label">Brand:</label>
+                        <div class="col-10">
+                            <input type="text" class="form-control mt-2 mb-2" id="brand" >
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label">Catergory:</label>
+                        <div class="col-10">
+                            <input type="text" class="form-control mt-2 mb-2" id="category" >
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-2 col-form-label">Thumbnail:</label>
+                        <div class="col-10">
+                            <input type="text" class="form-control mt-2 mb-2"  id="thumbnail">
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-1"></div>
+                        <div class=" alert alert-success col-10 d-none" role="alert" id="successmsg">
+                            Property Type added successfully ......!
+                        </div>
+
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-1"></div>
+                        <div class="alert alert-danger col-10 d-none" role="alert" id="failuremsg">
+                            Property Type Save failed....!
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <label class="col-1"></label>
+                        <div class="col-10">
+                            <input type="button" class="btn btn-primary mt-2" value="save" onclick="saveProductData() ">
+                            <input type="reset" class="btn btn-secondary mt-2" value="cancle">
+                        </div>
+                    </div>
+                    
+                 </form>   
+                  
+            </div>    
+                
+              
+              
+             
+             
+
+
+
+              
+        </div>
+
+
+
+      
+    </div>
+    
+</body>
+</html>
